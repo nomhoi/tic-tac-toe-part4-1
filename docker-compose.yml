@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  tic-tac-toe:
+    build:
+      context: .docker/
+      dockerfile: Dockerfile
+    volumes:
+      - .:/usr/src/myapp
+ 
