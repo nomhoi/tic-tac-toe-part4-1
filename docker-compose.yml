@@ -6,5 +6,5 @@ services:
       context: .docker/
       dockerfile: Dockerfile
     volumes:
-      - .:/usr/src/myapp
+      - ./app:/usr/src/myapp
  
